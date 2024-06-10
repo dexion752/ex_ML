@@ -4,23 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="979c4d2d-a200-4bce-b9f1-915eba554084" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/AllForML.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tf1-02-1-linear_regression.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tf1-03-1-cost_function.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tf1-03-2-optimizer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tf1-03-3-optional.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tf1-04-1-multi_variable_linear_regression.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tf1-04-2-using_matrix_for_multi_variable.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tf2-02-2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tf2-03-1-minimizing_cost_show_graph.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tf2-04-1-multi_variable_linear_regression.py" afterDir="false" />
-    </list>
+    <list default="true" id="979c4d2d-a200-4bce-b9f1-915eba554084" name="변경" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -66,13 +50,14 @@
     "Python.tf2-04-1-multi_variable_linear_regression.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "/Users/dexion/Dev/StudyML/MLForAll"
+    "last_opened_file_path": "C:/Users/logoskdy/Documents/Dev/ex_ML",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-48aec45f0201-746f403e7f0c-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.17011.127" />
+        <option value="bundled-python-sdk-babbdf50b680-746f403e7f0c-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.15989.155" />
       </set>
     </attachedChunks>
   </component>
