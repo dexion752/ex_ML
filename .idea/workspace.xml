@@ -5,13 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="979c4d2d-a200-4bce-b9f1-915eba554084" name="변경" comment="&#10;from grm_desktop">
-      <change afterPath="$PROJECT_DIR$/data-01-test-score.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tf1-04-2-1-loading_Bigdata_from_files.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tf1-04-2-loading_data_from_file.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tf2-04-3-file_input_linear_regression.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/AllForML.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/AllForML.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-03-diabetes.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-04-zoo.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tf1-05-1_logistic_regression.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tf1-05-2_logistic_regression_diabetes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tf1-06-1_softmax.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tf1-06-2_Fancy_Softmax_Classifier.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tf2-05-1_logistic_regression.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tf2-05-2_logistic_regression_diabetes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tf2-06-1_softmax_classifier.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tf2-06-2_softmax_zoo_classifier.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf2-04-3-file_input_linear_regression.py" beforeDir="false" afterPath="$PROJECT_DIR$/tf2-04-3-file_input_linear_regression.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,64 +73,28 @@
     "Python.tf1-04-2-1-loading_Bigdata_from_files.executor": "Run",
     "Python.tf1-04-2-loading_data_from_file.executor": "Run",
     "Python.tf1-04-2-using_matrix_for_multi_variable.executor": "Run",
+    "Python.tf1-05-1_logistic_regression.executor": "Run",
+    "Python.tf1-05-2_logistic_regression_diabetes.executor": "Run",
+    "Python.tf1-06-1_softmax.executor": "Run",
+    "Python.tf1-06-2_Fancy_Softmax_Classifier.executor": "Run",
     "Python.tf2-02-1-linear_regression.executor": "Run",
     "Python.tf2-02-2.executor": "Run",
     "Python.tf2-03-1-minimizing_cost_show_graph.executor": "Run",
     "Python.tf2-03-1.executor": "Run",
     "Python.tf2-04-1-multi_variable_linear_regression.executor": "Run",
     "Python.tf2-04-3-file_input_linear_regression.executor": "Run",
+    "Python.tf2-05-1_logistic_regression.executor": "Run",
+    "Python.tf2-05-2_logistic_regression_diabetes.executor": "Run",
+    "Python.tf2-06-1_softmax_classifier.executor": "Run",
+    "Python.tf2-06-2_softmax_zoo_classifier.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/logoskdy/Documents/Dev/ex_ML",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+    "last_opened_file_path": "C:/Users/logoskdy/Documents/Dev/doit_html_css_javascript-main",
+    "settings.editor.selected.configurable": "configurable.group.appearance"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.Python Console (1)">
-    <configuration name="Python Console (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="AllForML" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="/Python Console.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python Console" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="AllForML" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="/Python Console.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="tf1-04-2-1-loading_Bigdata_from_files" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.tf2-06-2_softmax_zoo_classifier">
+    <configuration name="tf1-06-1_softmax" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="AllForML" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -138,7 +107,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tf1-04-2-1-loading_Bigdata_from_files.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tf1-06-1_softmax.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -147,7 +116,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="tf1-04-2-loading_data_from_file" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="tf1-06-2_Fancy_Softmax_Classifier" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="AllForML" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -160,7 +129,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tf1-04-2-loading_data_from_file.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tf1-06-2_Fancy_Softmax_Classifier.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -169,7 +138,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="tf2-04-3-file_input_linear_regression" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="tf2-05-2_logistic_regression_diabetes" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="AllForML" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -182,7 +151,51 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tf2-04-3-file_input_linear_regression.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tf2-05-2_logistic_regression_diabetes.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="tf2-06-1_softmax_classifier" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="AllForML" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tf2-06-1_softmax_classifier.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="tf2-06-2_softmax_zoo_classifier" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="AllForML" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tf2-06-2_softmax_zoo_classifier.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -193,11 +206,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Python Console (1)" />
-        <item itemvalue="Python.tf2-04-3-file_input_linear_regression" />
-        <item itemvalue="Python.tf1-04-2-1-loading_Bigdata_from_files" />
-        <item itemvalue="Python.tf1-04-2-loading_data_from_file" />
-        <item itemvalue="Python.Python Console" />
+        <item itemvalue="Python.tf2-06-2_softmax_zoo_classifier" />
+        <item itemvalue="Python.tf2-06-1_softmax_classifier" />
+        <item itemvalue="Python.tf1-06-1_softmax" />
+        <item itemvalue="Python.tf1-06-2_Fancy_Softmax_Classifier" />
+        <item itemvalue="Python.tf2-05-2_logistic_regression_diabetes" />
       </list>
     </recent_temporary>
   </component>
@@ -225,8 +238,19 @@
       <option name="project" value="LOCAL" />
       <updated>1718003173254</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="&#10;from grm_desktop">
+      <option name="closed" value="true" />
+      <created>1718089658409</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1718089658409</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.csv" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -241,6 +265,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="변경" />
-    <option name="LAST_COMMIT_MESSAGE" value="변경" />
+    <MESSAGE value="&#10;from grm_desktop" />
+    <option name="LAST_COMMIT_MESSAGE" value="&#10;from grm_desktop" />
   </component>
 </project>

@@ -11,7 +11,7 @@ print(y_data, "\ny_data shape: ",y_data.shape)
 tf.model = tf.keras.Sequential()
 # activation function doesn't have to be added as s separate layer.
 # Add it as an argument of Dense() layer
-tf.model.add(tf.keras.layers.Dense(units=1, inddput_dim=3, activation='linear'))
+tf.model.add(tf.keras.layers.Dense(units=1, input_dim=3, activation='linear'))
 # tf.model.add(tf.keras.layers.Activation('linear'))
 tf.model.summary()
 
