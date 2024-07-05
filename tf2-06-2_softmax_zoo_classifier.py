@@ -27,5 +27,5 @@ print(tf.model.predict(test_data), np.argmax(tf.model.predict(test_data), axis=-
 
 # Full x_data test
 pred = np.argmax(tf.model.predict(x_data), axis=-1)
-for p, y in zip(ped, y_data.flatten()):
+for p, y in zip(pred, y_data.flatten()):
     print("[{}] Prediction: {} True Y: {}".format(p == int(y), p, int(y)))
