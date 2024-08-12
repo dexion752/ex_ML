@@ -5,14 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="979c4d2d-a200-4bce-b9f1-915eba554084" name="변경" comment="&#10;from grm_desktop">
-      <change afterPath="$PROJECT_DIR$/MustRunBeforeUsingHanSpellLibrary.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SouthSpell.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dict.cvs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tf1-07-1_training_test_dataset.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tf1-07-2_Non_normalized_inputs.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tf2-07-2_Non_nomalized_inputst.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tf1-07-2_MNIST.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tf2-07-3_MNIST.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tf2-06-2_softmax_zoo_classifier.py" beforeDir="false" afterPath="$PROJECT_DIR$/tf2-06-2_softmax_zoo_classifier.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,49 +47,51 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.03-1.executor": "Run",
-    "Python.Python Console (1).executor": "Run",
-    "Python.Python Console.executor": "Run",
-    "Python.tf1-02-1-linear_regression.executor": "Run",
-    "Python.tf1-02-1.executor": "Run",
-    "Python.tf1-03-1-cost_function.executor": "Run",
-    "Python.tf1-03-1.executor": "Run",
-    "Python.tf1-03-2-optimizer.executor": "Run",
-    "Python.tf1-03-2.executor": "Run",
-    "Python.tf1-03-3-optional.executor": "Run",
-    "Python.tf1-04-1-multi_variable_linear_regression.executor": "Run",
-    "Python.tf1-04-1multi_variable_linear_regression.executor": "Run",
-    "Python.tf1-04-2-1-loading_Bigdata_from_files.executor": "Run",
-    "Python.tf1-04-2-loading_data_from_file.executor": "Run",
-    "Python.tf1-04-2-using_matrix_for_multi_variable.executor": "Run",
-    "Python.tf1-05-1_logistic_regression.executor": "Run",
-    "Python.tf1-05-2_logistic_regression_diabetes.executor": "Run",
-    "Python.tf1-06-1_softmax.executor": "Run",
-    "Python.tf1-06-2_Fancy_Softmax_Classifier.executor": "Run",
-    "Python.tf1-07-1_training_test_dataset.executor": "Run",
-    "Python.tf1-07-2_Non_normalized_inputs.executor": "Run",
-    "Python.tf2-02-1-linear_regression.executor": "Run",
-    "Python.tf2-02-2.executor": "Run",
-    "Python.tf2-03-1-minimizing_cost_show_graph.executor": "Run",
-    "Python.tf2-03-1.executor": "Run",
-    "Python.tf2-04-1-multi_variable_linear_regression.executor": "Run",
-    "Python.tf2-04-3-file_input_linear_regression.executor": "Run",
-    "Python.tf2-05-1_logistic_regression.executor": "Run",
-    "Python.tf2-05-2_logistic_regression_diabetes.executor": "Run",
-    "Python.tf2-06-1_softmax_classifier.executor": "Run",
-    "Python.tf2-06-2_softmax_zoo_classifier.executor": "Run",
-    "Python.tf2-07-1_training_test_dataset.executor": "Run",
-    "Python.tf2-07-2_Non_nomalized_inputst (1).executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "F:/Dropbox/sources/PycharmProjects/NaverPediaCrawler",
-    "settings.editor.selected.configurable": "configurable.group.appearance"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.03-1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Python Console (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.Python Console.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tf1-02-1-linear_regression.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tf1-02-1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tf1-03-1-cost_function.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tf1-03-1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tf1-03-2-optimizer.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tf1-03-2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tf1-03-3-optional.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tf1-04-1-multi_variable_linear_regression.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tf1-04-1multi_variable_linear_regression.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tf1-04-2-1-loading_Bigdata_from_files.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tf1-04-2-loading_data_from_file.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tf1-04-2-using_matrix_for_multi_variable.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tf1-05-1_logistic_regression.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tf1-05-2_logistic_regression_diabetes.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tf1-06-1_softmax.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tf1-06-2_Fancy_Softmax_Classifier.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tf1-07-1_training_test_dataset.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tf1-07-2_MNIST.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tf1-07-2_Non_normalized_inputs.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tf2-02-1-linear_regression.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tf2-02-2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tf2-03-1-minimizing_cost_show_graph.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tf2-03-1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tf2-04-1-multi_variable_linear_regression.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tf2-04-3-file_input_linear_regression.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tf2-05-1_logistic_regression.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tf2-05-2_logistic_regression_diabetes.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tf2-06-1_softmax_classifier.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tf2-06-2_softmax_zoo_classifier.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tf2-07-1_training_test_dataset.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tf2-07-2_Non_nomalized_inputst (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.tf2-07-3_MNIST.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;F:/Dropbox/sources/PycharmProjects/NaverPediaCrawler&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.appearance&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Python.tf2-07-2_Non_nomalized_inputst (1)">
-    <configuration name="tf1-07-1_training_test_dataset" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+}</component>
+  <component name="RunManager" selected="Python.tf2-07-3_MNIST">
+    <configuration name="tf1-07-2_MNIST" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="AllForML" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -107,7 +104,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tf1-07-1_training_test_dataset.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tf1-07-2_MNIST.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -130,28 +127,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tf1-07-2_Non_normalized_inputs.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="tf2-06-2_softmax_zoo_classifier" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="AllForML" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tf2-06-2_softmax_zoo_classifier.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -204,13 +179,35 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="tf2-07-3_MNIST" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="AllForML" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tf2-07-3_MNIST.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.tf2-07-3_MNIST" />
+        <item itemvalue="Python.tf2-07-2_Non_nomalized_inputst" />
         <item itemvalue="Python.tf2-07-2_Non_nomalized_inputst (1)" />
         <item itemvalue="Python.tf1-07-2_Non_normalized_inputs" />
-        <item itemvalue="Python.tf2-07-2_Non_nomalized_inputst" />
-        <item itemvalue="Python.tf1-07-1_training_test_dataset" />
-        <item itemvalue="Python.tf2-06-2_softmax_zoo_classifier" />
+        <item itemvalue="Python.tf1-07-2_MNIST" />
       </list>
     </recent_temporary>
   </component>
@@ -254,7 +251,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719448171313</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="&#10;from grm_desktop">
+      <option name="closed" value="true" />
+      <created>1720142980084</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1720142980084</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -275,5 +280,16 @@
     <MESSAGE value="변경" />
     <MESSAGE value="&#10;from grm_desktop" />
     <option name="LAST_COMMIT_MESSAGE" value="&#10;from grm_desktop" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tf2-03-1-minimizing_cost_show_graph.py</url>
+          <line>1</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
